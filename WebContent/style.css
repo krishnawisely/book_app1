@@ -1,0 +1,20 @@
+@CHARSET "ISO-8859-1";
+#button{
+	
+	color:white;
+	background-color: #1aa301;	
+	font-family: cursive;
+	font-size: 16px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: none;
+}
+#button:HOVER{
+	
+	background-color:#00d700;
+	box-shadow: 0px 16px 15px 0px rgba(0,0,0,0.50);
+
+}
+

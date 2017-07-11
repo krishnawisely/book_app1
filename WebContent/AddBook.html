@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h2>AddBooks</h2>
+	<form action="AddbookController" method="post">
+	<table>
+	<tr><th>BookName</th><th><input type="text" name="book_name" autofocus required></th></tr>
+	<tr><th>BookPrice</th><th><input type="text" name="book_price" required></th></tr>
+	<tr><th>AuthorName</th><th><input type="text" name="author_name" required></th></tr>
+	<tr><th>Quantity</th><th><input type="text" name="quantity" required></th></tr>
+	<tr><th>Rating</th><th><input type="range" name="rating" min="1" max="5" required></th></tr>
+	<tr><th>Status</th><th><input type="text" name="status" required></th></tr>
+	<tr><th></th><th><input type="submit" name="ok" value="Submit">
+	<input type="reset"></th></tr>
+    </table>
+    </form>
+</body>
+</html>
